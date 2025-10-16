@@ -33,7 +33,7 @@ int main() {
     cout << "Soma Sequencial = " << soma_seq << endl;
     cout << "Soma Paralela   = " << soma_par << endl;
 
-    cout << "\nA diretiva reduction evita condições de corrida, "
+    cout << "\nA diretiva reduction evita condicoes de corrida, "
          << "garantindo que cada thread some localmente antes de combinar o resultado global." << endl;
 
     return 0;
